@@ -1,0 +1,27 @@
+# Q2 Roadmap: AI-Powered Search
+
+## Problem
+Users spend 3+ minutes finding products on our platform. Search abandonment rate is 40%, directly impacting conversion.
+
+## Solution
+Implement semantic search powered by vector embeddings with AI-driven product recommendations. Users describe what they want in natural language, and the system understands intent—not just keywords.
+
+## Timeline
+- Month 1: Vector database integration (Pinecone), index existing catalog
+- Month 2: ML model training on user behavior and purchase history
+- Month 3: A/B test against current search, gradual rollout
+
+## Resources Required
+- 2 backend engineers (full-time)
+- 1 ML engineer (full-time)
+- $15k/month infrastructure costs (vector DB + compute)
+
+## Expected Impact
+- 50% reduction in average search time
+- 20% increase in search-to-purchase conversion
+- $2M additional annual revenue (based on current traffic × improved conversion)
+
+## Risks & Mitigations
+- ML model accuracy: Starting with hybrid approach (semantic + keyword fallback)
+- Infrastructure costs: Will optimize after proving value in A/B test
+- Team capacity: Delaying Q2 analytics dashboard to free up resources
